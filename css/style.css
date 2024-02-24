@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(rgb(67, 90, 112), rgb(52, 82, 163), rgb(94, 94, 160));
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    font-size: 2vw;
+    text-shadow: .1vw .0.2vh #3a76bb;
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+    section {
+        width: 1000px;
+        margin: 0 auto; 
+    }
+}
